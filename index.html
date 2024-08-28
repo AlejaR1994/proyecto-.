@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+       <div class="header">
+             <img class="header__logo" src="./imagenes/Logo .png" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="left">
+             <textarea id="ingresotexto" 
+             class="ingreso__texto" placeholder="Ingrese texto aqui"></textarea>
+            <div class="left__footer">
+                 <img src="./imagenes/bi_exclamation.png"alt="">
+                <span class="left__info">Solo letras minúsculas y sin acentos</span>
+                <div class="left__botones">
+                <button id="bntEncriptar" 
+                class="bnt__Encriptar">Encriptar</button>
+                <button id="bntDesencriptar"
+                 class="bnt__Desencriptar">Desencriptar</button>
+                </div>
+            </div>
+        </div>
+        <div id="right" 
+            class="right">
+            <img id="Muñeco" 
+                class="Muñeco" src="./imagenes/Muñeco.png"alt="">     
+            <textarea id="mensajefinal" 
+            class ="mensaje__final" placeholder="Ningún mensaje fue encontrado"></textarea>
+            <p id="rigthinfo" 
+                class="rigth__info" >Ingresa el texto que desees encriptar o desencriptar.</p> 
+            <button id="bntCopiar" 
+                class="bnt__Copiar oculto">Copiar</button>
+             </div>              
+        </div> 
+    </main>
+    
+    
+        <footer>
+        </footer>
+        <script src="./js/script.js"></script>
+
+</body>
+</html> 
